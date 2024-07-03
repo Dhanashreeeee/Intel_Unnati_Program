@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Movement Insights</title>
+</head>
+<body>
+    <h1>Vehicle Movement Insights</h1>
+    <table border="1">
+        <tr>
+            <th>Vehicle Image</th>
+            <th>License Plate Image</th>
+            <th>Vehicle Timestamp</th>
+            <th>License Plate Timestamp</th>
+        </tr>
+        {% for record in data %}
+        <tr>
+            <td><img src="{{ record['vehicle_image_path'] }}" width="100"></td>
+            <td><img src="{{ record['license_plate_image_path'] }}" width="100"></td>
+            <td>{{ record['vehicle_timestamp'] }}</td>
+            <td>{{ record['license_plate_timestamp'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+``
