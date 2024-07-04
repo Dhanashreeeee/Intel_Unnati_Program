@@ -1,0 +1,50 @@
+------------------------------
+Vehicle ID: ABC123
+Entry Time: 2024-07-01 08:15:23
+Exit Time: 2024-07-01 17:30:45
+Duration: 09:15:22
+
+Vehicle ID: XYZ789
+Entry Time: 2024-07-01 09:45:10
+Exit Time: 2024-07-01 18:00:55
+Duration: 08:15:45
+
+Peak Entry Time: 08:00 - 09:00
+Peak Exit Time: 17:00 - 18:00
+
+
+
+
+---------------------------------
+Lot A:
+    Average Occupancy: 85%
+    Peak Occupancy Time: 10:00 - 12:00
+
+Lot B:
+    Average Occupancy: 70%
+    Peak Occupancy Time: 14:00 - 16:00
+
+Lot C:
+    Average Occupancy: 60%
+    Peak Occupancy Time: 08:00 - 09:00
+
+
+
+
+--------------------------------
+License Plate: ABC123
+Vehicle ID: ABC123
+Status: Authorized
+
+License Plate: XYZ789
+Vehicle ID: XYZ789
+Status: Unauthorized
+
+
+
+
+
+   vehicle_image_path             vehicle_timestamp    license_plate_image_path      license_plate_timestamp
+0  path/to/vehicle/image1.jpg   2023-01-01 08:30:15     path/to/plate/image1.jpg     2023-01-01 08:30:20
+1  path/to/vehicle/image2.jpg   2023-01-01 12:15:45     path/to/plate/image2.jpg     2023-01-01 12:15:50
+2  path/to/vehicle/image3.jpg   2023-01-02 09:45:30     path/to/plate/image3.jpg     2023-01-02 09:45:35
